@@ -8,4 +8,11 @@
     text-transform: uppercase;
     font-weight: bold;
     border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    color: black;
+    background-color: orange;
 }

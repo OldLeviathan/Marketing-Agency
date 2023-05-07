@@ -11,7 +11,16 @@
     height: 300px;
     background: white;
     background:linear-gradient(-55deg, transparent 210px, white 0);
+    cursor: pointer;
+    transition: 0.5s ease;
 }
+
+.left:hover{
+    background:linear-gradient(-55deg, transparent 210px, black 0);
+    padding: -10px;
+    color: white;
+}
+
 .image{
     width: 200px;
     height: 200px;
