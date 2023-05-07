@@ -1,0 +1,32 @@
+.wrapper{
+    padding: 100px 0 0 50px;
+    color: white;
+    background:linear-gradient(-105deg, transparent 450px, rgba(222, 66, 0, 0.8) 0);
+    height: 950px;
+    width: 60%;
+}
+
+.title{
+    opacity: 1;
+    font-size: 70px;
+    line-height: 140px;
+    margin-bottom: 200px;
+}
+.title:after{
+    position:absolute;
+    top:1150px;
+    left:60px;
+    width:10%;
+    border-top:20px solid white;
+    border-radius: 10px;
+    content:"";
+}
+
+.title  h1{
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.subtitle{
+    font-size: 40px;
+
+}

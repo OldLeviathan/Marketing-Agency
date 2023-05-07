@@ -1,0 +1,42 @@
+.wrapper{
+    padding: 0 100px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    margin-right: 30px;
+}
+.text p{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    text-align: right;
+}
+.tel{
+    color: #de4200;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}

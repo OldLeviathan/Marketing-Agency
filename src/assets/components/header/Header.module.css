@@ -1,0 +1,34 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+.left{
+    padding: 0 50px;
+    align-items: center;
+    display: flex;
+    font-size: 60px;
+    height: 300px;
+    background: white;
+    background:linear-gradient(-55deg, transparent 210px, white 0);
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+.text{
+    display: block;
+    margin-left: 20px;
+}
+.right{
+    padding: 100px 0 0 200px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background: #de4200;
+    background:linear-gradient(125deg, transparent 210px, #de4200 0);
+}
+.right mark{
+    background-color: transparent;
+    color: black;
+}

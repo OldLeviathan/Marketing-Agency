@@ -1,0 +1,36 @@
+.wrapper{
+    display: flex;
+    margin-bottom: 50px;
+}
+.line{
+    width: 63.2%;
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+}
+.line .main{
+    height: 80px;
+    background:linear-gradient(-105deg, transparent 50px, rgb(222, 66, 0) 0);
+    z-index: 50;
+}
+.line .end{
+    margin-left: -100px;
+    background:linear-gradient(-55deg, transparent 50px, rgb(161, 52, 0) 0);
+}
+.dots{
+    padding-left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+.dots li{
+    margin-right: 20px;
+    width: 25px;
+    height: 15px;
+    background-color: #de4200;
+    transform: skew(-20deg);
+}
+.dots li:nth-child(2){
+    background-color: black;
+}
